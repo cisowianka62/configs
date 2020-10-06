@@ -1,0 +1,12 @@
+          {
+            label: 'App',
+            click: () => {
+              mainWindow.loadURL(MAIN_WINDOW_WEBPACK_ENTRY);
+            },
+          },
+          {
+            label: 'Stylebook',
+            click: () => {
+              mainWindow.loadURL(STORYBOOK_WINDOW_WEBPACK_ENTRY);
+            },
+          },
